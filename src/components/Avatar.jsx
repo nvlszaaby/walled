@@ -1,14 +1,17 @@
 import { useState } from "react";
-
+import icy from "../assets/icy bear.png"
 import avatarImg from "../assets/avatar.png";
 
 function Avatar() {
   const [isAvatarActive, setIsAvatarActive] = useState(false);
 
+  // const border = ctxValue === "dark"? "black" "[#178F8D] "
+  const[users,setUsers] = useState ([])
   return (
     <div className="flex items-center gap-x-4 ml-auto">
       <span className="text-right">
-        <p className="text-black font-bold">Chelsea Immanuela</p>
+        <p className="text-black font-bold"> Gebby
+        </p>
         <p className="text-black">Personal Account</p>
       </span>
       <div
@@ -17,7 +20,7 @@ function Avatar() {
         }`}
         onClick={() => setIsAvatarActive((prev) => !prev)}
       >
-        <img src={avatarImg} alt="avatar" className="rounded-full" />
+        <img src={users.avatar} alt="avatar" className="rounded-full" />
       </div>
     </div>
   );

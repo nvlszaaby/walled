@@ -1,16 +1,107 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
+  "posts": [
+    { "id": "1", "title": "a title", "views": 100 },
+    { "id": "2", "title": "another title", "views": 200 }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "Gebby Novalisza",
+    "email": "gebbynovalisza.com",
+    "avatar": "https://i.pinimg.com/736x/10/e0/2a/10e02a8d25fe32a5d5003732ecc38f6f.jpg",
+    "balance": "200000",
+    "accountNumber": "1102210399"
+  },
+  "users": 
+    {
       "name": "Gebby Novalisza",
-      "email": "gebbynovalisza@gmail.com",
+      "email": "gebbynovalisza.com",
       "avatar": "https://th.bing.com/th/id/OIP.eIPgasGmVpwGWiz59hp8YQHaGM?rs=1&pid=ImgDetMain",
-      "balance": "200.000" 
-    }
-  }
+      "balance": "200000",
+      "accountNumber": "1102210399"
+    },
+"transaction": [
+      {
+        "id": "1",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "DEBIT",
+        "fromTo": "310001001",
+        "description": "Fore Coffee",
+        "amount": -75000.0
+      },
+      {
+        "id": "2",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "CREDIT",
+        "fromTo": "1001",
+        "description": "Topup from Bank Transfer",
+        "amount": 1000000.0
+      },
+      {
+        "id": "3",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "DEBIT",
+        "fromTo": "310001001",
+        "description": "Fore Coffee",
+        "amount": -75000.0
+      },
+      {
+        "id": "4",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "CREDIT",
+        "fromTo": "1001",
+        "description": "Topup from Bank Transfer",
+        "amount": 1000000.0
+      },
+      {
+        "id": "5",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "DEBIT",
+        "fromTo": "310001001",
+        "description": "Fore Coffee",
+        "amount": -75000.0
+      },
+      {
+        "id": "6",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "CREDIT",
+        "fromTo": "1001",
+        "description": "Topup from Bank Transfer",
+        "amount": 1000000.0
+      },
+      {
+        "id": "7",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "DEBIT",
+        "fromTo": "310001001",
+        "description": "Fore Coffee",
+        "amount": -75000.0
+      },
+      {
+        "id": "8",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "CREDIT",
+        "fromTo": "1001",
+        "description": "Topup from Bank Transfer",
+        "amount": 1000000.0
+      },
+      {
+        "id": "9",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "DEBIT",
+        "fromTo": "310001001",
+        "description": "Fore Coffee",
+        "amount": -75000.0
+      },
+      {
+        "id": "10",
+        "dateTime": "20:10 - 30 June 2022",
+        "type": "CREDIT",
+        "fromTo": "1001",
+        "description": "Topup from Bank Transfer",
+        "amount": 1000000.0
+      }
+    ]
+}
